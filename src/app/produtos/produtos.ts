@@ -22,7 +22,7 @@ export const produtos: IProduto[] = [
     { id: 8, descricao: "Combo de placa de vídeos", preco: 18449.99, descricaoPreco: "Dividido em até 12 vezes.", imagem: "./assets/placa-video.jpg", quantidadeEstoque: 10 },
     { id: 9, descricao: "Processador Ryzen", preco: 1000, descricaoPreco: "Dividido em até 12 vezes.", imagem: "./assets/processador.jpg", quantidadeEstoque: 10 },
     { id: 10, descricao: "Notebook bom", preco: 2500, descricaoPreco: "Dividido em até 12 vezes.", imagem: "./assets/laptop-1.jpg", quantidadeEstoque: 10 },
-    { id: 11, descricao: "Notebook excelente", preco: 4500, descricaoPreco: "Dividido em até 12 vezes.", imagem: "/assets/laptop-2.jpg", quantidadeEstoque: 10 },
+    { id: 11, descricao: "Notebook excelente", preco: 4500, descricaoPreco: "Dividido em até 12 vezes.", imagem: "./assets/laptop-2.jpg", quantidadeEstoque: 10 },
     { id: 12, descricao: "Mouse barato", preco: 20, descricaoPreco: "Dividido em até 12 vezes.", imagem: "./assets/mouse-1.png", quantidadeEstoque: 10 },
     { id: 13, descricao: "Mouse ótimo", preco: 200, descricaoPreco: "Dividido em até 12 vezes.", imagem: "./assets/mouse-2.jpg", quantidadeEstoque: 10 },
     { id: 14, descricao: "Mouse pequeno", preco: 50, descricaoPreco: "Dividido em até 12 vezes.", imagem: "./assets/mouse-4.jpg", quantidadeEstoque: 10 },
