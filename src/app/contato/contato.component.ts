@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
+import { NotificacaoService } from '../notificacao.service';
 
 @Component({
   selector: 'app-contato',
@@ -32,14 +33,15 @@ export class ContatoComponent implements OnInit {
   });
 
   constructor(
-    private fb: FormBuilder
+    private fb: FormBuilder,
+    private notificacao: NotificacaoService
   ) { }
 
   ngOnInit(): void {
   }
 
   enviarFormulario() {
-    alert('Formulário enviado com sucesso');
+    this.notificacao.notificar('Formulário enviado com sucesso');
     this.formContato.reset();
   }
 

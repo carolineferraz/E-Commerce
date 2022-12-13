@@ -6,7 +6,7 @@ import { IProdutoCarrinho } from './produtos/produtos';
 })
 export class CarrinhoService {
 
-  itens: IProdutoCarrinho[]  = [];
+  itens: IProdutoCarrinho[] = [];
 
   constructor() { }
 

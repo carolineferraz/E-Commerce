@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CarrinhoService } from '../carrinho.service';
+import { NotificacaoService } from '../notificacao.service';
 import { IProdutoCarrinho } from '../produtos/produtos';
 
 @Component({
@@ -15,7 +16,8 @@ export class CarrinhoComponent implements OnInit {
 
   constructor(
     public carrinhoService: CarrinhoService,
-    private router: Router
+    private router: Router,
+    private notificacao: NotificacaoService
   ) { }
 
   ngOnInit(): void {
@@ -34,7 +36,7 @@ export class CarrinhoComponent implements OnInit {
   }
 
   comprar() {
-    alert("Compra realizada com sucesso!");
+    this.notificacao.notificar("Compra realizada com sucesso!");
     this.carrinhoService.limparCarrinho();
     this.router.navigate(['/produtos']);
   }
