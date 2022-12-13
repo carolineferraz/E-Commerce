@@ -29,7 +29,7 @@ export class DetalhesProdutoComponent implements OnInit {
   }
 
   adicionarAoCarrinho(){
-    this.notificacao.notificar('O produto foi adicionado ao carrinho');
+    this.notificacao.notificar('O produto foi adicionado ao carrinho!');
     const produto: IProdutoCarrinho = {
       ...this.produto!,
       quantidade: this.quantidade
