@@ -55,6 +55,7 @@ input {
     font-size: 22px;
     margin-bottom: 10px;
     transition: .3s all;
+    cursor: pointer;
 }
 
 .buy-button:hover {
