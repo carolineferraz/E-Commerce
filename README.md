@@ -1,3 +1,5 @@
+<h1 align="center">&#x1F6D2;<a href="https://carolineferraz.github.io/E-Commerce">carolineferraz.github.io/E-Commerce</a>&#x1F6D2;</h1>
+
 # ECommerce
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
