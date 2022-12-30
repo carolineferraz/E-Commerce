@@ -1,4 +1,4 @@
-<h1 align="center">&#x1F6D2;<a href="https://carolineferraz.github.io/E-Commerce">carolineferraz.github.io/E-Commerce</a>&#x1F6D2;</h1>
+<h1 align="center">&#x1F6D2;<a href="https://carolineferraz.github.io/E-Commerce-Frontend">carolineferraz.github.io/E-Commerce</a>&#x1F6D2;</h1>
 
 # ECommerce
 
